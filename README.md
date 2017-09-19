@@ -26,7 +26,7 @@ Show a sentence as a graph and do some operations on it.
 * 若有多条则以不同颜色高亮，也可以选择只高亮某一条
 ---
 
-### String randomWalk(Graph G):随机游走
+### Function5 : 随机游走
 
 ##### 风格1 : 自动游走
 
