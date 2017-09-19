@@ -6,6 +6,7 @@ Show a sentence as a graph and do some operations on it.
 * 选择文件载入
 * 遍历文本建立有向图
 * 调用Graphviz生成图片并展示在图片显示区域
+* 可以将图片保存到本地其他位置
 ---
 
 ### Function2 : 查询桥接词
