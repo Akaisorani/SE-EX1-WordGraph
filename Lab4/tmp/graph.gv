@@ -1,0 +1,26 @@
+digraph G{
+new;
+explore;
+and;
+words;
+to;
+civilizations;
+seek;
+strange;
+life;
+out;
+
+new->civilizations[label=1];
+new->life[label=1];
+new->words[label=1];
+explore->strange[label=1];
+and->new[label=1];
+words->to[label=1];
+words->words[label=1];
+to->explore[label=1];
+to->seek[label=1];
+seek->out[label=1];
+strange->new[label=1];
+life->and[label=1];
+out->new[label=1];
+}
