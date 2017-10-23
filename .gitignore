@@ -36,3 +36,5 @@ tmp/
 tmp/img.png
 tmp/graph.gv
 
+#bin file
+/bin/
