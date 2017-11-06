@@ -1,3 +1,4 @@
+package wordgraph;
 import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.Toolkit;

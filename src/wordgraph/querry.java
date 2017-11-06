@@ -1,3 +1,4 @@
+package wordgraph;
 
 public class querry {
     public static String queryBridgeWords(Graph wordGraph, String word1, String word2) {

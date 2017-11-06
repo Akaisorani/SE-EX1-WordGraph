@@ -1,3 +1,4 @@
+package wordgraph;
 import java.util.Random;
 //根据桥接词生成新文本
 public class GenerateNewText {

@@ -1,3 +1,4 @@
+package wordgraph;
 
 import java.awt.EventQueue;
 

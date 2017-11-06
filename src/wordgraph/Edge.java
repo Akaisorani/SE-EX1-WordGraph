@@ -1,3 +1,4 @@
+package wordgraph;
 /**
  * Edge class for direct graph.
  * <p>contains from,to,weight and color properties.
