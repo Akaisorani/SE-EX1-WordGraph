@@ -58,7 +58,7 @@ public class MyFile {
             if (i+1== edge.size() || !edge.get(i).equals(edge.get(i + 1))){
                 S = edge.get(i).split(" ");
                 G.addEdge(S[0],S[1],cnt);
-                System.out.println(S[0]+" "+S[1]+" " + cnt);
+                //System.out.println(S[0]+" "+S[1]+" " + cnt);
                 cnt = 1;
             }
             else{
