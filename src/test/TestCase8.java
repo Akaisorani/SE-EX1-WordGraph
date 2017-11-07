@@ -6,7 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestCase7 {
+public class TestCase8 {
 	wordgraph.Graph testGraph;
 	
 	@Before
@@ -21,7 +21,7 @@ public class TestCase7 {
 
 	@Test
 	public void testQueryBridgeWords() {
-		String result=wordgraph.querry.queryBridgeWords(testGraph,"abc","abc");
+		String result=wordgraph.querry.queryBridgeWords(testGraph,"abc","fa");
 		System.out.println(result);
 		assertEquals("abc fa",result);
 	}
