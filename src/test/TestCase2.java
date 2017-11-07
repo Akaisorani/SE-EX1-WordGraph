@@ -6,7 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestCase1 {
+public class TestCase2 {
 	wordgraph.Graph testGraph;
 	
 	@Before
@@ -20,10 +20,10 @@ public class TestCase1 {
 	}
 
 	@Test
-	public void testQueryBridgeWords() {
-		String result=wordgraph.querry.queryBridgeWords(testGraph,"the","of");
+	public void testQueryBridgeWords() {		
+		String result=wordgraph.querry.queryBridgeWords(testGraph,"i","have");
 		System.out.println(result);
-		assertEquals("content heat sons state table",result);
+		assertEquals("0",result);
 	}
 
 }
