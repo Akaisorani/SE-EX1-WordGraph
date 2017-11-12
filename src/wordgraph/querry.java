@@ -2,7 +2,6 @@ package wordgraph;
 
 public class querry {
     public static String queryBridgeWords(Graph wordGraph, String word1, String word2) {
-        // TODO Auto-generated method stub
         
         Node node1 = wordGraph.getNode(word1);
         Node node2 = wordGraph.getNode(word2);
@@ -16,6 +15,7 @@ public class querry {
                 Node tempnode = wordGraph.getNode(tempans);
                 for(Edge edge2:tempnode.edges){
                     if (edge2.to.equals(word2)){
+                    	System.out.println("weight "+edge2.from+" "+edge2.to+" "+edge2.weight);
                         if (word2.equals(word1)&&word2.equals(tempans)&&edge2.weight < 2)continue;
                         if (S.equals("")) S = S+tempans;
                         else S = S + " " + tempans;

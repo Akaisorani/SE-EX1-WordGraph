@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestShortest1 {
+public class TestShortest3 {
 	wordgraph.Graph testGraph;
 
 	@Before
@@ -24,9 +24,9 @@ public class TestShortest1 {
 	@Test
 	public void testCalcShortestPath() {
 		//2word,dis1,path1
-		List result=wordgraph.ShortestPath.calcShortestPath(testGraph, "to", "explore");
+		List result=wordgraph.ShortestPath.calcShortestPath(testGraph, "to", "new");
 		System.out.println(result.toString());
-		assertEquals("[to->explore]",result.toString());
+		assertEquals("[to->explore->strange->new, to->seek->out->new]",result.toString());
 	}
 
 }

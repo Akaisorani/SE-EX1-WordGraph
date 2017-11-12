@@ -65,7 +65,7 @@ public class Graph {
         if(nodes.get(to)==null)nodes.put(to, new Node(to));
         Integer index=findEdgeIndex(from,to);
         if(index!=null)nodes.get(from).edges.get(index).weight+=weight;
-        else nodes.get(from).edges.add(new Edge(from,to));
+        else nodes.get(from).edges.add(new Edge(from,to,weight));
     }
 
     /**
