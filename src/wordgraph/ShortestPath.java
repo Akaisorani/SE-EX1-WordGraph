@@ -96,9 +96,10 @@ public class ShortestPath {
      * A-&gt;B-&gt;C
      */
     public static List<String> calcShortestPath(Graph G,String word1,String word2) {
-        spfa(G,word1);
         tmpPath.clear();
         paths.clear();
+    	if((word1!=null && G.getNode(word1)==null) || (word2!=null && G.getNode(word2)==null))return paths;
+        spfa(G,word1);
         dfs(G,word1,word2);
         return paths;
     }
