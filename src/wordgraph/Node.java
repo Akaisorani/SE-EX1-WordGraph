@@ -9,8 +9,8 @@ import java.util.List;
  *
  */
 public class Node {
-    public String name;
-    public String color;
+    private String name;
+    private String color;
     public List<Edge> edges=new ArrayList<>();
     
     /**
@@ -27,6 +27,15 @@ public class Node {
      */
     public void clearColor() {
         this.color="black";
+    }
+    public void setColor(String s) {
+      this.color=s;
+    }
+    public String getColor() {
+      return this.color;
+    }
+    public String getName() {
+      return this.name;
     }
     
 }
